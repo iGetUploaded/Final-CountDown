@@ -1,0 +1,420 @@
+[
+    {
+        "info": {
+            "title": "My New Workspace",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "Ban Command",
+            "description": "Ban",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "text",
+                "info": {
+                    "x": 12,
+                    "y": 26,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "ban"
+                },
+                "outputs": {
+                    "text": [
+                        "ms6tQeILwj"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "command_event",
+                "info": {
+                    "x": 364,
+                    "y": 54,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 267,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_name": "ms6tQeILwj",
+                    "custom_prefix": "Et9QiGZUHn",
+                    "command_slowmode": "Vmxe0Za3AD"
+                },
+                "options": {
+                    "command_restriction": "none",
+                    "required_member_permission": "ban_members",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "MDlbBUJStC"
+                    ],
+                    "action2": [],
+                    "message": [
+                        "ifkxZw7z0z"
+                    ],
+                    "channel": [
+                        "nWu88UVQR4"
+                    ],
+                    "user": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 5,
+                    "y": 167,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "?"
+                },
+                "outputs": {
+                    "text": [
+                        "Et9QiGZUHn"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "get_message_arguments",
+                "info": {
+                    "x": 1227,
+                    "y": 102,
+                    "z": 7,
+                    "color": "#5a5a5a",
+                    "height": 238,
+                    "width": 457
+                },
+                "inputs": {
+                    "action": "MDlbBUJStC",
+                    "message": "ifkxZw7z0z",
+                    "argument_number": "jfdrop7PjD",
+                    "custom_argument_separator": "LDn9yIqN7t"
+                },
+                "options": {
+                    "argument_type": "multiple_arguments"
+                },
+                "outputs": {
+                    "action": [
+                        "s1mMXPfME6"
+                    ],
+                    "result": [
+                        "5HhqJBb3yF",
+                        "JpPjuOhDvj"
+                    ]
+                }
+            },
+            {
+                "name": "ban_user",
+                "info": {
+                    "x": 1775,
+                    "y": 228,
+                    "z": 8,
+                    "color": "#5a5a5a",
+                    "height": 373,
+                    "width": 276
+                },
+                "inputs": {
+                    "action": "s1mMXPfME6",
+                    "server": "nWu88UVQR4",
+                    "target": "JpPjuOhDvj",
+                    "delete_user_message_history": "r0pyf7naJ9",
+                    "time": "5HhqJBb3yF",
+                    "reason1": "SAomyyG7eX",
+                    "reason2": "RpM16YVMfg"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "options": {}
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "Hello Command",
+            "description": "Hello command",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "text",
+                "info": {
+                    "x": 42,
+                    "y": 39,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Hello"
+                },
+                "outputs": {
+                    "text": [
+                        "DeKqZQTUWN"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "command_event",
+                "info": {
+                    "x": 368,
+                    "y": 41,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 267,
+                    "width": 759
+                },
+                "inputs": {
+                    "command_name": "DeKqZQTUWN",
+                    "custom_prefix": "18FPxOhvkb",
+                    "command_slowmode": "k3Z2rePRBX"
+                },
+                "options": {
+                    "command_restriction": "none",
+                    "required_member_permission": "none",
+                    "case_sensitive": "no",
+                    "command_slowmode_restriction": "none"
+                },
+                "outputs": {
+                    "action1": [
+                        "J2pqRNaq5w"
+                    ],
+                    "action2": [],
+                    "message": [],
+                    "channel": [
+                        "kLXv63IXvY"
+                    ],
+                    "user": [],
+                    "error_message": []
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 1177,
+                    "y": 52,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "J2pqRNaq5w",
+                    "channel": "kLXv63IXvY",
+                    "text": "BmfbDPEfKg",
+                    "embed": "cMPtlnc8yi",
+                    "attachment": "vJ7hqYCjjE",
+                    "split_message": "ZmEV0dRUZ6"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 817,
+                    "y": 307,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Hello user"
+                },
+                "outputs": {
+                    "text": [
+                        "BmfbDPEfKg"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 55,
+                    "y": 480,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": ""
+                },
+                "outputs": {
+                    "text": []
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    },
+    {
+        "info": {
+            "title": "UserInfo Command",
+            "description": "Userinfo",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "text",
+                "info": {
+                    "x": 7,
+                    "y": 110,
+                    "z": 1,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "831017867587092570"
+                },
+                "outputs": {
+                    "text": [
+                        "dco6YCFEGF"
+                    ]
+                },
+                "inputs": {}
+            },
+            {
+                "name": "bot_initialization_event",
+                "info": {
+                    "x": 11,
+                    "y": 9,
+                    "z": 2,
+                    "color": "#5a5a5a",
+                    "height": 82,
+                    "width": 242
+                },
+                "outputs": {
+                    "action": [
+                        "GdbrucD7oS"
+                    ]
+                },
+                "inputs": {},
+                "options": {}
+            },
+            {
+                "name": "find_user",
+                "info": {
+                    "x": 362,
+                    "y": 47,
+                    "z": 3,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 526
+                },
+                "inputs": {
+                    "action": "GdbrucD7oS",
+                    "search_value": "dco6YCFEGF"
+                },
+                "options": {
+                    "find_user_by": "id"
+                },
+                "outputs": {
+                    "action": [
+                        "sxmIgWWWfF"
+                    ],
+                    "user": [
+                        "dmlGDpC8Er"
+                    ]
+                }
+            },
+            {
+                "name": "get_user_info",
+                "info": {
+                    "x": 928,
+                    "y": 49,
+                    "z": 4,
+                    "color": "#5a5a5a",
+                    "height": 113,
+                    "width": 544
+                },
+                "inputs": {
+                    "action": "sxmIgWWWfF",
+                    "user": "dmlGDpC8Er"
+                },
+                "options": {
+                    "user_info": "8"
+                },
+                "outputs": {
+                    "action": [
+                        "ft73BSXCOK"
+                    ],
+                    "result": [
+                        "AUcoBkdA9W"
+                    ]
+                }
+            },
+            {
+                "name": "send_message",
+                "info": {
+                    "x": 1564,
+                    "y": 49,
+                    "z": 5,
+                    "color": "#5a5a5a",
+                    "height": 237,
+                    "width": 280
+                },
+                "inputs": {
+                    "action": "ft73BSXCOK",
+                    "channel": "AUcoBkdA9W",
+                    "text": "o3KtwMf4oS",
+                    "embed": "lDmFccn5io",
+                    "attachment": "83CTz5pV0N",
+                    "split_message": "jSqpUNg2F7"
+                },
+                "outputs": {
+                    "action": [],
+                    "message": []
+                },
+                "options": {}
+            },
+            {
+                "name": "text",
+                "info": {
+                    "x": 1165,
+                    "y": 180,
+                    "z": 6,
+                    "color": "#5a5a5a",
+                    "height": 118,
+                    "width": 305
+                },
+                "options": {
+                    "text": "Bot Is Online!!"
+                },
+                "outputs": {
+                    "text": [
+                        "o3KtwMf4oS"
+                    ]
+                },
+                "inputs": {}
+            }
+        ],
+        "notes": []
+    }
+]
